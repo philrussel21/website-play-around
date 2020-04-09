@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sample</title>
+        <style>
+            body {
+                background: black;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="blue">#0000ff</button>
+        <button id="red">#ff0000</button>
+    </body>
+    <script type="text/javascript">
+        let blue = document.querySelector("#blue");
+        let red = document.querySelector("#red");
+
+        function blueFunc(){
+            delete document.body.style.background;
+            document.body.style.backgroundColor = "#0000ff";
+        }
+        function redFunc(){
+            document.body.style.backgroundColor = "#ff0000";
+        }
+        blue.addEventListener("click", blueFunc);
+        red.addEventListener("click", redFunc)
+    </script>
+</html>

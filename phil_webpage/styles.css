@@ -1,0 +1,53 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.static {
+    position: static;
+}
+.aboutMe {
+    height: 75%;
+}
+.center {
+    margin: auto;
+}
+.btn {
+    width: 10%;
+}
+.jumbotron {
+    margin-top: 80px;
+}
+.card {
+    position: static;
+}
+.dota2 {
+    background-image: url("dota 2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.card-img-top {
+    max-height: 200px;
+}
+code {
+    background-color: #f2f2f2;
+}
+footer{
+    background-color: rgba(115, 115, 115, 0.3);
+}
+.fontChange{
+    font-family:'Pacifico', cursive;
+}
+.change {
+    width: auto;
+}
+.lighter{
+    background-color:rgba(52, 58, 64, 0.3);
+}
+#max {
+    height: 76vh;
+}
+.li-txt {
+    color: rgb(13, 13, 13);
+}
